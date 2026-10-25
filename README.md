@@ -2,10 +2,10 @@
 
 A small portfolio project: a fictional abnormal checklist ("Hydraulic Pressure Low") written as structured XML, validated with an XSD schema and rendered to an HTML checklist with XSLT.
 
-**This project is FICTIONAL.** The aircraft (Zefira ZF-90), systems and procedure are invented. It is S1000D-inspired only. It does not claim compliance with S1000D or ATA iSpec 2300. Not for operational use.
+**This project is FICTIONAL.** The aircraft (Zefira ZF-90), systems and procedure are invented, to preserve the confidentiality of OEM(s). It is S1000D-inspired only and does not claim compliance with S1000D or ATA iSpec 2300. thus the work is only for operational use.
 
 ## Why I built it
-As a Young engineer and private student pilot on the Tecnam P2008, I use normal and emergency checklists every flight, and at Air Alliance Flight Center I handled pre-/post-flight checks daily. My recent work at the German Aerospace Center provided me with ability to model flights by phase. I wanted to understand how procedures are written and structured. But also how they are  maintained as data, so I built this demo.
+As a Young engineer and private student pilot on the Tecnam P2008, I use normal and emergency checklists every flight, and at Air Alliance Flight Center, I handled pre-/post-flight checks daily. My recent work at the German Aerospace Center (DLR) provided me with ability to model flights by phase. I wanted to understand how different procedures are written and structured, but also read by the pilots or engineers. One other question was also how they are  maintained as data, so I built this demo.
 
 ## What is inside
 - `xml/hyd-press-low.xml`: the checklist (title, flight phase, applicability, warnings, steps)
