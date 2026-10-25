@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../xsl/checklist.xsl"?>
-
-
 <!-- FICTIONAL aircraft and procedure. Portfolio demo only. S1000D-inspired, not compliant. Not for operational use. -->
 <checklist id="ABN-HYD-001">
   <title>HYDRAULIC PRESSURE LOW</title>
@@ -28,5 +26,10 @@
       <action>FLIGHT CONTROLS</action>
       <response>CHECK RESPONSE</response>
     </step>
+    <step id="S5">
+      <action>LAND AT NEAREST SUITABLE AIRPORT</action>
+      <response>PLAN</response>
+    </step>
   </steps>
 </checklist>
+
