@@ -27,7 +27,7 @@ https://edmabjr.github.io/fictional-ecl-demo/xml/hyd-press-low.xml
 - Tags and a changelog make each version traceable.
 
 ## Tools
-- GitHub (version control, tags, releases, Pages)
+- GitHub (version control, tags, releases, Pages), valided by Oxygen XML Editor
 - XSD schema validation with xmllint, run by GitHub Actions
 - XSLT 1.0 rendered by the web browser
 
