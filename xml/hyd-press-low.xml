@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!-- FICTIONAL aircraft and procedure. Portfolio demo only. S1000D-inspired, not compliant. Not for operational use. -->
 <checklist id="ABN-HYD-001">
   <title>HYDRAULIC PRESSURE LOW</title>
   <flightPhase>cruise</flightPhase>
   <applicability aircraft="Zefira ZF-90"/>
   <notice>FICTIONAL. Demo only. Not for operational use.</notice>
+  <warnings>
+    <warning level="caution">Flight control response may be reduced.</warning>
+  </warnings>
+  <steps>
+    <step id="S1">
+      <action>HYD SYS A PRESSURE</action>
+      <response>CHECK</response>
+    </step>
+    <step id="S2">
+      <action>HYD PUMP A SWITCH</action>
+      <response>OFF</response>
+    </step>
+    <step id="S3">
+      <action>HYD SYS B PRESSURE</action>
+      <response>CHECK NORMAL</response>
+    </step>
+    <step id="S4">
+      <action>FLIGHT CONTROLS</action>
+      <response>CHECK RESPONSE</response>
+    </step>
+  </steps>
 </checklist>
