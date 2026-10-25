@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FICTIONAL aircraft and procedure. Portfolio demo only. S1000D-inspired, not compliant. Not for operational use. -->
+<checklist id="ABN-HYD-001">
+  <title>HYDRAULIC PRESSURE LOW</title>
+  <flightPhase>cruise</flightPhase>
+  <applicability aircraft="Zefira ZF-90"/>
+  <notice>FICTIONAL. Demo only. Not for operational use.</notice>
+</checklist>
