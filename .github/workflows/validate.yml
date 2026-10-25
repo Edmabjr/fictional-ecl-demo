@@ -1,1 +1,12 @@
+name: Validate XML
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install xmllint
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+      - name: Validate XML against XSD
+        run: xmllint --noout --schema xsd/checklist.xsd xml/*.xml
 
