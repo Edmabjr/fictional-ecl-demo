@@ -30,5 +30,4 @@ https://edmabjr.github.io/fictional-ecl-demo/xml/hyd-press-low.xml
 - GitHub (version control, tags, releases, Pages)
 - XSD schema validation with xmllint, run by GitHub Actions
 - XSLT 1.0 rendered by the web browser
-
-
+- The Demo was then opened and valided with Oxigen XML Editor (trial)
